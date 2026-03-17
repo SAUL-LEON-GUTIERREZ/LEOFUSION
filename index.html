@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEOFUSION | Ferretería & Construcción</title>
+    <meta
+      name="description"
+      content="LEOFUSION conecta tu obra con proveedores certificados de ferretería y construcción. Cotiza materiales, herramientas y soluciones profesionales sin stock propio."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120" tabindex="0">
+    <header>
+      <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#inicio">LEO<span>FUSION</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Abrir navegación"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto mb-3 mb-lg-0 align-items-lg-center gap-lg-2">
+              <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#categorias">Categorías</a></li>
+              <li class="nav-item"><a class="nav-link" href="#cotiza-tu-obra">Cotiza tu obra</a></li>
+              <li class="nav-item"><a class="nav-link" href="#profesionales">Profesionales</a></li>
+              <li class="nav-item"><a class="nav-link" href="#proveedores">Proveedores</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+              <li class="nav-item ms-lg-2">
+                <a class="btn btn-warning btn-cta px-4" href="#cotiza-tu-obra">Cotizar ahora</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero-section text-white d-flex align-items-center">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative py-5">
+          <div class="row">
+            <div class="col-lg-8">
+              <p class="text-uppercase fw-semibold mb-2 tracking">Ferretería y materiales de construcción</p>
+              <h1 class="display-4 fw-bold mb-3">Todo para construir, en un solo lugar</h1>
+              <p class="lead mb-4">Materiales, ferretería y soluciones para tu proyecto.</p>
+              <div class="d-flex flex-column flex-sm-row gap-3">
+                <a href="#cotiza-tu-obra" class="btn btn-danger btn-lg px-4">Cotiza tu proyecto</a>
+                <a href="#catalogo" class="btn btn-outline-light btn-lg px-4">Ver productos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="categorias" class="section-space bg-light">
+        <div class="container">
+          <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Categorías principales</h2>
+            <p class="text-muted">Encuentra todo lo que tu obra necesita, con cotización personalizada por volumen.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <article class="category-card h-100">
+                <i class="bi bi-bricks"></i>
+                <h3>Materiales de construcción</h3>
+                <p>Cemento, fierro, agregados y más para obra gruesa y acabados.</p>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <article class="category-card h-100">
+                <i class="bi bi-tools"></i>
+                <h3>Herramientas</h3>
+                <p>Manuales y eléctricas para profesionales y contratistas.</p>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <article class="category-card h-100">
+                <i class="bi bi-droplet-half"></i>
+                <h3>Tuberías y riego</h3>
+                <p>PVC, conexiones y sistemas hidráulicos para proyectos completos.</p>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <article class="category-card h-100">
+                <i class="bi bi-lightning-charge"></i>
+                <h3>Electricidad</h3>
+                <p>Conductores, tableros y accesorios para instalaciones seguras.</p>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <article class="category-card h-100">
+                <i class="bi bi-palette2"></i>
+                <h3>Pinturas y acabados</h3>
+                <p>Soluciones para interiores y exteriores de alto rendimiento.</p>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <article class="category-card h-100">
+                <i class="bi bi-shield-lock"></i>
+                <h3>Seguridad industrial</h3>
+                <p>Equipos de protección para un trabajo seguro en cada etapa.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="profesionales" class="section-space">
+        <div class="container">
+          <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Cómo funciona</h2>
+            <p class="text-muted">Un proceso ágil, transparente y diseñado para proyectos exigentes.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="step-card h-100">
+                <span>1</span>
+                <h3>Elige productos o envía tu lista</h3>
+                <p>Comparte requerimientos técnicos, cantidades y plazos de tu proyecto.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="step-card h-100">
+                <span>2</span>
+                <h3>LEOFUSION gestiona el pedido</h3>
+                <p>Coordinamos con proveedores aliados para obtener la mejor propuesta.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="step-card h-100">
+                <span>3</span>
+                <h3>Recibe en tu obra o domicilio</h3>
+                <p>Entrega programada con seguimiento y comunicación constante.</p>
+              </div>
+            </div>
+          </div>
+          <div class="alert alert-warning border-0 mt-4 text-center fw-semibold" role="alert">
+            Trabajamos con proveedores certificados.
+          </div>
+        </div>
+      </section>
+
+      <section id="catalogo" class="section-space bg-light">
+        <div class="container">
+          <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-2 mb-5">
+            <div class="section-title mb-0">
+              <h2 class="fw-bold">Catálogo de productos</h2>
+              <p class="text-muted mb-0">Precios referenciales. Venta sujeta a cotización y disponibilidad de proveedores.</p>
+            </div>
+            <span class="badge text-bg-dark fs-6 px-3 py-2">Modelo sin stock propio</span>
+          </div>
+
+          <div class="row g-4" id="product-grid"></div>
+        </div>
+      </section>
+
+      <section id="cotiza-tu-obra" class="section-space">
+        <div class="container">
+          <div class="row g-5 align-items-start">
+            <div class="col-lg-5">
+              <div class="section-title">
+                <h2 class="fw-bold">Cotiza tu obra</h2>
+                <p class="text-muted">Envíanos tu requerimiento y recibirás una propuesta técnica y comercial personalizada.</p>
+              </div>
+              <ul class="list-unstyled quote-benefits">
+                <li><i class="bi bi-check-circle-fill"></i> Atención para compras por volumen.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Asesoría para profesionales y contratistas.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Respuesta ágil por WhatsApp y correo.</li>
+              </ul>
+            </div>
+            <div class="col-lg-7">
+              <form id="quote-form" class="quote-form" action="/cotizaciones" method="POST" enctype="multipart/form-data" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="whatsapp" class="form-label">WhatsApp</label>
+                    <input type="tel" class="form-control" id="whatsapp" name="whatsapp" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="ubicacion" class="form-label">Ubicación</label>
+                    <input type="text" class="form-control" id="ubicacion" name="ubicacion" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="tipo_obra" class="form-label">Tipo de obra</label>
+                    <select id="tipo_obra" name="tipo_obra" class="form-select" required>
+                      <option value="" selected disabled>Selecciona una opción</option>
+                      <option>Construcción nueva</option>
+                      <option>Remodelación</option>
+                      <option>Mantenimiento industrial</option>
+                      <option>Infraestructura pública</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="lista_materiales" class="form-label">Lista de materiales</label>
+                    <textarea
+                      class="form-control"
+                      id="lista_materiales"
+                      name="lista_materiales"
+                      rows="4"
+                      placeholder="Indica materiales, cantidades y especificaciones técnicas."
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <label for="archivo_lista" class="form-label">Adjuntar archivo (opcional)</label>
+                    <input
+                      class="form-control"
+                      type="file"
+                      id="archivo_lista"
+                      name="archivo_lista"
+                      accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt"
+                    />
+                  </div>
+                  <div class="col-12 d-grid d-md-flex justify-content-md-end">
+                    <button type="submit" class="btn btn-danger btn-lg px-4">Enviar cotización</button>
+                  </div>
+                </div>
+              </form>
+              <p id="form-response" class="small text-muted mt-3 mb-0"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proveedores" class="section-space bg-dark text-white">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <h2 class="fw-bold">Confianza que construye resultados</h2>
+              <div class="row g-3 mt-2">
+                <div class="col-md-4">
+                  <div class="trust-pill">Atención personalizada</div>
+                </div>
+                <div class="col-md-4">
+                  <div class="trust-pill">Entrega segura</div>
+                </div>
+                <div class="col-md-4">
+                  <div class="trust-pill">Gestión profesional</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <p class="text-white-50 mb-3">Espacio para marcas y proveedores aliados:</p>
+              <div class="partner-logos">
+                <span>ALIADO 01</span>
+                <span>ALIADO 02</span>
+                <span>ALIADO 03</span>
+                <span>ALIADO 04</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto" class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h3 class="h5 fw-bold">LEOFUSION</h3>
+            <p class="mb-0">LEOFUSION – Ferretería & Construcción</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h6 text-uppercase fw-semibold">Contacto</h3>
+            <ul class="list-unstyled mb-0">
+              <li><i class="bi bi-telephone"></i> +51 900 000 000</li>
+              <li><i class="bi bi-envelope"></i> ventas@leofusion.com</li>
+              <li><i class="bi bi-geo-alt"></i> Lima, Perú</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="h6 text-uppercase fw-semibold">Síguenos</h3>
+            <div class="d-flex gap-3 fs-4">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/51900000000"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contactar por WhatsApp"
+    >
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
